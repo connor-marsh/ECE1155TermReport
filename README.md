@@ -15,3 +15,5 @@ From a terminal with the right environment, run `jupyter lab` and it will launch
 
 ### Running simulation
 Press SHIFT+ENTER while in a code cell to run it. The simulation cell creates a button widget which will end the simulation when pressed
+### Potential Error
+If you encounter an error mentioning nbextensions, close the notebook and run “conda install jupyterlab=3.6.6” to revert to an older version, reopen the notebook and try running the cells again
